@@ -31,7 +31,7 @@ class _CartPageState extends State<CartPage> {
       builder: (context, value, child) =>SafeArea(
       child: Column(
         children: [
-          Text("Your Cart", 
+         const Text("Your Carts", 
           style: TextStyle(fontSize: 20,),
         ),
 
